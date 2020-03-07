@@ -1,0 +1,134 @@
+*, ::after, ::before {
+	box-sizing: border-box;}
+
+.right {
+	width: max-content;
+	margin-left: auto;
+	margin-right: 0px;}
+
+.flex {
+	width: 100%;
+	display: flex;}
+	
+.content {
+	flex: 0 0 80%;
+	max-width: 80%;}	
+
+.remark {
+	color: #e0e0ff;
+	font-size: 8pt;}
+
+.text-right {
+	text-align: right;}
+	
+body {
+	width: 900px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #080010;}
+
+p, div {
+	margin-top: 4.0px;
+	margin-right: 0px;
+	margin-bottom: 6.0px;
+	margin-left: 0px;
+	text-align: justify;
+	font-size: 10.0pt;
+	color: #e0e0ff;
+	letter-spacing: .25pt;}
+
+h1 {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 6.0px;
+	margin-left: 0px;
+	text-align: center;
+	font-size: 24.0pt;
+	color: #a0a0ff;
+	letter-spacing: .25pt;}
+
+h1.title {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 6.0px;
+	margin-left: 0px;
+	text-align: center;
+	font-size: 36.0pt;
+	color: #a0a0ff;
+	letter-spacing: .25pt;}
+
+h2 {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 6.0px;
+	margin-left: 0px;
+	text-align: center;
+	font-size: 18.0pt;
+	color: #a0a0ff;
+	letter-spacing: .25pt;}
+
+h3 {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 6.0px;
+	margin-left: 32px;
+	text-align: left;
+	font-size: 14.0pt;
+	color: #a0a0ff;
+	letter-spacing: .25pt;}
+
+h4 {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 4.0px;
+	margin-left: 16px;
+	text-align: left;
+	font-size: 10.0pt;
+	color: #a0a0ff;
+	letter-spacing: .25pt;}
+
+hr {
+	border: 1px solid #101020;}
+
+hr.gray {
+	border: 1px solid #101010;}
+
+a {
+	color: #a0a0ff;
+	text-decoration: none;}
+
+a: link, body_alink {
+	color: #a0a0ff;
+	text-decoration: none;}
+
+a: visited, body_avisited {
+	color: #a0a0a0;
+	text-decoration: none;}
+
+a: hover, a: active, body_ahover {
+	color: #0000ff;
+	text-decoration: underline;}
+
+li {
+	margin-top: 2.0px;
+	margin-bottom: 2.0px;
+	line-height: 100%;
+	text-align: justify;
+	font-size: 10.0pt;
+	letter-spacing: .25pt;}
+
+BLOCKQUOTE {
+	font-size: 10.0pt;}
+
+pre {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0.0px;
+	margin-left: 16px;
+	text-align: left;
+	line-height: 100%;
+	font-size: 10.0pt;
+	font-family: "Courier New","Serif";
+	letter-spacing: .25pt;}

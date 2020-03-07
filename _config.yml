@@ -1,0 +1,8 @@
+name: Третья Сторона
+description: 
+author: like
+copyright: 3side
+keywords: 3side
+url: https://3side.github.io/
+permalink: /blog/:year/:month/:day/:title
+markdown: kramdown
