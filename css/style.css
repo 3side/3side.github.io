@@ -119,6 +119,14 @@ li {
 	font-size: 10.0pt;
 	letter-spacing: .25pt;}
 
+.flex {
+	width: 100%;
+	display: flex;}
+	
+.content {
+	flex: 0 0 32%;
+	max-width: 32%;}
+
 BLOCKQUOTE {
 	font-size: 10.0pt;}
 
