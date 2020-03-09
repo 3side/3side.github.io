@@ -1,8 +1,8 @@
-name: Третья Сторона
+name: Сообщество Третья Сторона
 description: 
 author: like
-copyright: 3side
-keywords: 3side
-url: https://3side.github.io/
+copyright: third-party
+keywords: third-party
+url: https://community-third-party.github.io/
 permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
