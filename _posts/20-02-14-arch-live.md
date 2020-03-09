@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "arch-live"
-description: "."
+description: "Arch Live - Live дистрибутив дистрибутив Arch Linux"
 date: 14-02-20 
 categories: 
 - project

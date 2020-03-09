@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "arch-repo"
-description: "."
+description: "Arch-repo - репозиторий Arch Linux"
 date: 14-02-20 
 categories: 
 - project

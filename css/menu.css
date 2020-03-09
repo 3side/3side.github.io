@@ -3,7 +3,7 @@
 }
 #menubar ul{
 	display: none;
-	background-color: #100820;
+	background-color: #181C20;
 	position: absolute;
 	top: 100%;
 }
@@ -15,7 +15,7 @@
 }
 #menubar {
 	height: 30px;
-	background-color: #080010;
+	background-color: #10141C;
 	padding-left: 25px;
 	min-width: 470px;
 }
@@ -33,5 +33,5 @@
 	text-align: center;
 }
 #menubar ul li { float: none; }
-#menubar li:hover { background-color: #100820; }
-#menubar ul li:hover { background-color: #181030; }
+#menubar li:hover { background-color: #181C20; }
+#menubar ul li:hover { background-color: #20242C; }

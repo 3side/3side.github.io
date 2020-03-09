@@ -1,6 +1,9 @@
 *, ::after, ::before {
 	box-sizing: border-box;}
 
+.background {
+	background-color: #10141C;}
+	
 .right {
 	width: max-content;
 	margin-left: auto;
@@ -11,11 +14,16 @@
 	display: flex;}
 	
 .content {
-	flex: 0 0 80%;
-	max-width: 80%;}	
+	flex: 0 0 32%;
+	max-width: 32%;
+	background: #181C20;
+	border: 4px solid #10141C;
+	border-radius: 10px;
+	margin: 4px;
+	padding: 6px;}	
 
 .remark {
-	color: #e0e0ff;
+	color: #d8dce0;
 	font-size: 8pt;}
 
 .text-right {
@@ -27,7 +35,7 @@ body {
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-left: auto;
-	background-color: #080010;}
+	background-color: #080C10;}
 
 p, div {
 	margin-top: 4.0px;
@@ -36,7 +44,8 @@ p, div {
 	margin-left: 0px;
 	text-align: justify;
 	font-size: 10.0pt;
-	color: #e0e0ff;
+	color: #d8dce0;
+	padding: 4px;
 	letter-spacing: .25pt;}
 
 h1 {
@@ -46,7 +55,7 @@ h1 {
 	margin-left: 0px;
 	text-align: center;
 	font-size: 24.0pt;
-	color: #a0a0ff;
+	color: #cde;
 	letter-spacing: .25pt;}
 
 h1.title {
@@ -56,7 +65,7 @@ h1.title {
 	margin-left: 0px;
 	text-align: center;
 	font-size: 36.0pt;
-	color: #a0a0ff;
+	color: #cde;
 	letter-spacing: .25pt;}
 
 h2 {
@@ -66,7 +75,7 @@ h2 {
 	margin-left: 0px;
 	text-align: center;
 	font-size: 18.0pt;
-	color: #a0a0ff;
+	color: #cde;
 	letter-spacing: .25pt;}
 
 h3 {
@@ -76,7 +85,7 @@ h3 {
 	margin-left: 32px;
 	text-align: left;
 	font-size: 14.0pt;
-	color: #a0a0ff;
+	color: #cde;
 	letter-spacing: .25pt;}
 
 h4 {
@@ -86,7 +95,7 @@ h4 {
 	margin-left: 16px;
 	text-align: left;
 	font-size: 10.0pt;
-	color: #a0a0ff;
+	color: #cde;
 	letter-spacing: .25pt;}
 
 hr {
@@ -96,19 +105,19 @@ hr.gray {
 	border: 1px solid #101010;}
 
 a {
-	color: #a0a0ff;
+	color: #2880c0;
 	text-decoration: none;}
 
 a: link, body_alink {
-	color: #a0a0ff;
+	color: #2880c0;
 	text-decoration: none;}
 
 a: visited, body_avisited {
-	color: #a0a0a0;
+	color: #8ac;
 	text-decoration: none;}
 
 a: hover, a: active, body_ahover {
-	color: #0000ff;
+	color: #8ac;
 	text-decoration: underline;}
 
 li {
@@ -118,18 +127,6 @@ li {
 	text-align: justify;
 	font-size: 10.0pt;
 	letter-spacing: .25pt;}
-
-.flex {
-	width: 100%;
-	display: flex;}
-	
-.content {
-	flex: 0 0 32%;
-	max-width: 32%;
-	background: #101420;
-	border: 4px solid #080010;
-	border-radius: 8px;
-	margin: 4px;}
 
 BLOCKQUOTE {
 	font-size: 10.0pt;}

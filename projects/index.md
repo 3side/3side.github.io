@@ -1,14 +1,12 @@
 ---
-title: Сообщество Третья Сторона
-permalink: /
+title: Проекты
+description: Проекты сообщества Третья Сторона
+permalink: /projects
 layout: page
 ---
 
-Сайт поддержки проектов
-
-<hr class="gray" />
 <div class="flex">
-{% for post in site.posts %}
+{% for post in site.categories.project %}
 <div class="content">
 	<h4><a href="{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a></h4>
 	<div>{{ post.excerpt }}</div>
